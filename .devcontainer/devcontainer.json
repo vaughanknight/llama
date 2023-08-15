@@ -1,0 +1,16 @@
+{
+    "build": { "dockerfile": "Dockerfile" },
+  
+    "customizations": {
+      "vscode": {
+      }
+    },
+  
+    "forwardPorts": [8000]
+    ,
+
+    "runArgs": [
+      "--gpus",
+      "all"
+      ]
+  }
